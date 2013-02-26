@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "keywords": ["spin", "spinner", "load", "loading", "progress"],
   "dependencies": {
-    "component/css": "*",
-    "visionmedia/debug": "*",
-    "component/spinner": "0.1.0"
+    "debug": "*",
+    "css-component": "*",
+    "spinner-component": "0.1.0"
   },
   "development": {},
   "license": "MIT",
