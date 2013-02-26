@@ -6,7 +6,7 @@
   "dependencies": {
     "debug": "*",
     "css-component": "*",
-    "spinner-component": "0.1.0"
+    "spinner-component2": "0.1.0"
   },
   "development": {},
   "license": "MIT",
