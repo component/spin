@@ -1,8 +1,8 @@
 
 # spin
 
-  Higher level spinner API auto-adjusting position and scale
-  to fit within the target element. Built on[component/spinner](https://github.com/component/spinner).
+  Higher level spinner API auto positioning and scaling
+  to fit within the target element. Built on [component/spinner](https://github.com/component/spinner).
 
   ![javascript spinner](http://i.cloudup.com/7F5SguoUkoB+e4r.png)
 
