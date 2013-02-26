@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Spin</title>
+  <style type="text/css">
+    body {
+      padding: 25px;
+      font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    div {
+      display: inline-block;
+      border: 1px dashed #ddd;
+      border-radius: 3px;
+      background: white;
+      position: relative;
+    }
+    .one {
+      padding: 50px;
+    }
+    .two {
+      padding: 100px 30px;
+    }
+    .three {
+      padding: 40px 100px;
+    }
+    .four {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+  <div class="four"></div>
+  <script src="build/build.js"></script>
+  <script>
+    var spin = require('spin');
+
+    var a = spin(document.querySelector('.one'));
+    var b = spin(document.querySelector('.two'));
+    var c = spin(document.querySelector('.three'));
+    var d = spin(document.querySelector('.four'));
+
+    setTimeout(function(){
+      b.remove();
+    }, 2000);
+  </script>
+</body>
+</html>
