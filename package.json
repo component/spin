@@ -1,7 +1,7 @@
 {
   "name": "spin-component",
   "description": "Higher level spinner API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": ["spin", "spinner", "load", "loading", "progress"],
   "dependencies": {
     "debug": "*",
