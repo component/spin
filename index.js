@@ -26,6 +26,7 @@ var Spinner = require('spinner')
 module.exports = function(el, options){
   if (!el) throw new Error('element required');
 
+  var appended = false;
   var spin = new Spinner(el);
   options = options || {};
   var ms = options.delay || 300;
@@ -48,14 +49,15 @@ module.exports = function(el, options){
   // remove
   spin.remove = function(){
     debug('remove');
+    if (appended) el.removeChild(spin.el);
     spin.stop();
-    el.removeChild(spin.el);
     clearTimeout(timer);
   };
 
   // append
   var timer = setTimeout(function(){
     debug('append');
+    appended = true;
     el.appendChild(spin.el);
   }, ms);
 
