@@ -2,7 +2,13 @@
   "name": "spin-component",
   "description": "Higher level spinner API",
   "version": "0.0.2",
-  "keywords": ["spin", "spinner", "load", "loading", "progress"],
+  "keywords": [
+    "spin",
+    "spinner",
+    "load",
+    "loading",
+    "progress"
+  ],
   "dependencies": {
     "debug": "*",
     "css-component": "*",
@@ -14,5 +20,9 @@
     "scripts": {
       "spin/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/spin.git"
   }
 }
