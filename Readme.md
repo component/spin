@@ -1,4 +1,3 @@
-
 # spin
 
   Higher level spinner API auto positioning and scaling
@@ -23,6 +22,11 @@
 ```js
 var s = spin(document.querySelector('.one'));
 ```
+
+### Spinner#update()
+
+  Augments the `Spinner` returned with an `.update()` method,
+  which updates the size and position of the spinner.
 
 ### Spinner#remove()
 
