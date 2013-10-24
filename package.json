@@ -12,7 +12,8 @@
   "dependencies": {
     "debug": "*",
     "css-component": "*",
-    "spinner-component2": "0.1.0"
+    "spinner-component2": "0.1.0",
+    "removed-component": "0.0.3"
   },
   "development": {},
   "license": "MIT",

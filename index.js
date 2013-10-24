@@ -4,7 +4,8 @@
 
 var Spinner = require('spinner')
   , debug = require('debug')('spin')
-  , css = require('css');
+  , css = require('css')
+  , removed = require('removed');
 
 /**
  * Add a spinner to `el`,
@@ -65,6 +66,10 @@ module.exports = function(el, options){
     appended = true;
     el.appendChild(spin.el);
   }, ms);
+
+  removed(spin.el, function() {
+    appended = false;
+  });
 
   return spin;
 };
