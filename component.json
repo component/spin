@@ -11,9 +11,9 @@
     "progress"
   ],
   "dependencies": {
-    "component/css": "*",
     "visionmedia/debug": "*",
-    "component/spinner": "0.1.0",
+    "dominicbarnes/css": "ie8_compat",
+    "dominicbarnes/spinner": "ie8_compat",
     "component/removed": "*"
   },
   "development": {},
