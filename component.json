@@ -12,8 +12,8 @@
   ],
   "dependencies": {
     "visionmedia/debug": "*",
-    "dominicbarnes/css": "ie8_compat",
-    "dominicbarnes/spinner": "ie8_compat",
+    "component/css": "*",
+    "component/spinner": "*",
     "component/removed": "*"
   },
   "development": {},
