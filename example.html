@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Spin</title>
@@ -6,7 +7,10 @@
       padding: 25px;
       font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
-    div {
+    .one,
+    .two,
+    .three,
+    .four {
       display: inline-block;
       border: 1px dashed #ddd;
       border-radius: 3px;
@@ -36,8 +40,8 @@
   <script>
     var spin = require('spin');
 
-    var a = spin(document.querySelector('.one'));
-    var b = spin(document.querySelector('.two'));
+    var a = spin(document.querySelector('.one')).text('one');
+    var b = spin(document.querySelector('.two')).text('two');
     var c = spin(document.querySelector('.three'));
     var d = spin(document.querySelector('.four'));
 

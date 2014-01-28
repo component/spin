@@ -11,9 +11,9 @@
     "progress"
   ],
   "dependencies": {
-    "component/css": "*",
     "visionmedia/debug": "*",
-    "component/spinner": "0.1.0",
+    "component/css": "*",
+    "component/spinner": "*",
     "component/removed": "*"
   },
   "development": {},
