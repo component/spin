@@ -12,8 +12,8 @@
   "dependencies": {
     "debug": "*",
     "component-css": "0.0.6",
-    "component-spinner": "1.1.0",
-    "removed": "0.0.4"
+    "component-spinner": "1.1.1",
+    "removed": "0.0.5"
   },
   "browser": {
     "css": "component-css",
