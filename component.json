@@ -2,7 +2,7 @@
   "name": "spin",
   "repo": "component/spin",
   "description": "Higher level spinner API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "spin",
     "spinner",
@@ -13,8 +13,8 @@
   "dependencies": {
     "visionmedia/debug": "*",
     "component/css": "0.0.6",
-    "component/spinner": "1.1.0",
-    "component/removed": "0.0.4"
+    "component/spinner": "1.1.1",
+    "component/removed": "0.0.5"
   },
   "development": {},
   "license": "MIT",
