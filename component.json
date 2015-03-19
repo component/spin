@@ -12,9 +12,9 @@
   ],
   "dependencies": {
     "visionmedia/debug": "*",
-    "component/css": "*",
-    "component/spinner": "*",
-    "component/removed": "*"
+    "component/css": "0.0.6",
+    "component/spinner": "1.1.0",
+    "component/removed": "0.0.4"
   },
   "development": {},
   "license": "MIT",

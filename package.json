@@ -11,11 +11,10 @@
   ],
   "dependencies": {
     "debug": "*",
-    "css-component": "*",
-    "spinner-component2": "0.1.0",
-    "removed-component": "0.0.3"
+    "component-css": "0.0.6",
+    "component-spinner": "1.1.0",
+    "removed": "0.0.4"
   },
-  "development": {},
   "license": "MIT",
   "component": {
     "scripts": {
