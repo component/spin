@@ -15,6 +15,10 @@
     "component-spinner": "1.1.0",
     "removed": "0.0.4"
   },
+  "browser": {
+    "css": "component-css",
+    "spinner": "component-spinner"
+  },
   "license": "MIT",
   "component": {
     "scripts": {
